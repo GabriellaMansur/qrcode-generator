@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /*background: linear-gradient(180deg, #A6C67B 0%, #F2F7F5 100%);*/
+    background-color:#e3f1ec;
+    background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.562)), url('/images/fundo3.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.login_form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+}
+
+.login_form img {
+    width: 45%;
+}
+
+.login_header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.login_header h1 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.685);
+}
+
+.login_input {
+    border: 2px solid #f1f1f1;
+    border-radius: 8px;
+    color: #333;
+    font-size: 0.9em;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.login_input:focus {
+    border: 2px solid #023900;
+}
+
+.login_button {
+    background:linear-gradient(90deg, #023900 0%, #44b901 100%) ;
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+    opacity: 1;
+}
+
+.login_button:hover {
+    opacity: 0.9;
+}
