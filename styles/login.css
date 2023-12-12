@@ -6,7 +6,7 @@ body {
     height: 100vh;
     /*background: linear-gradient(180deg, #A6C67B 0%, #F2F7F5 100%);*/
     background-color:#e3f1ec;
-    background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.562)), url('/images/fundo3.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.562)), url('../images/fundo3.jpg');
     background-position: center;
     background-size: cover;
 
